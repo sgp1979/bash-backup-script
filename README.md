@@ -4,6 +4,7 @@ Bash script to back up a directory as a compressed encrypted archive.
 ## Usage
 ```bash
 ./backup.sh <directory> [-c compression] <output>
+```
 
 ## Parameters:
   directory : Full path of directory to backup
