@@ -1,6 +1,6 @@
 # bash-backup-script
-Bash script that backs up a directory with optional compression and encryption.
+Backs up a directory as a compressed encrypted file.
 
 ## usage
 ```bash
-./backup.sh -d <directory> -c <compression> -o <output>
+./backup.sh <directory> [-c compression] <output>
