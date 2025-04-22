@@ -28,8 +28,8 @@ output    : Name of output archive file
 - Encrypted archive: `mybackup.tar.xxx.enc`
 
 ## Notes
-- Supported compression types `gzip`, `bzip2`, `xz` or none (default `tar`).
-- Encryption with OpenSSL (AES-256-CBC + PBKDF2).
+- Supported compression types `gzip`, `bzip2`, `xz`, `none` (default `tar`).
+- Encryption with OpenSSL (AES-256-CBC + PBKDF2) (https://docs.openssl.org/1.1.1/man1/enc/)
 - Default password empty (for automation). Option to prompt for user password.
 - Errors logged in `error.log`. 
 - All non-error output is suppressed.
