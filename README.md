@@ -7,19 +7,25 @@ Bash script to back up a directory as a compressed encrypted archive.
 ```
 
 ## Parameters:
+```
 - directory : Full path of directory to backup
 - output    : Name of output archive file
+```
 
 ## Options:
+```
 - -h, --h   : Help
 - -c        : Compression type (gzip, bzip2, xz) [Default: tar]
+```
 
 ## Examples:
-- ./backup.sh /home/user/Documents -c gzip docs_backup
-- ./backup.sh /home/user/Documents docs_backup
+```
+ ./backup.sh /home/user/Documents -c gzip docs_backup
+ ./backup.sh /home/user/Documents docs_backup
+```
 
 ## Output
-Encrypted archive: `mybackup.tar.xxx.enc`  
+- Encrypted archive: `mybackup.tar.xxx.enc`
 
 ## Notes
 - Supported compression types `gzip`, `bzip2`, `xz` or none (default `tar`).
